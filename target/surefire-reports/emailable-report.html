@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">23,286</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">17,033</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1667874839498</td><td rowspan="1">22100</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1670192098730</td><td rowspan="1">16208</td></tr></tbody>
 </table>
 <h2>Surefire test</h2><h3 id="m0">TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Create a brand new user&quot;</td><td>&quot;Optional[Signup]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.core.exception.CucumberException: Failed to instantiate class stepDef.signup_stepDef
 	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:149)
@@ -38,7 +38,7 @@
 Caused by: org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
 For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;Misbas-Air&apos;, ip: &apos;2600:4041:5e93:8200:dc1f:b9f2:69d9:6789%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.4&apos;, java.version: &apos;19&apos;
+System info: host: &apos;Misbas-Air&apos;, ip: &apos;fe80:0:0:0:837:c508:efe0:c346%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0.1&apos;, java.version: &apos;19&apos;
 Driver info: driver.version: unknown
 	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)
 	at org.openqa.selenium.By.className(By.java:100)
@@ -54,7 +54,7 @@ Driver info: driver.version: unknown
 	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
 	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
 	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
-	at pageObject.signup_page.&lt;init&gt;(signup_page.java:18)
+	at pageObject.signup_page.&lt;init&gt;(signup_page.java:19)
 	at stepDef.signup_stepDef.&lt;init&gt;(signup_stepDef.java:10)
 	... 31 more
 ... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

@@ -2,6 +2,7 @@ package pageObject;
 
 import base.Config;
 import base.GenericFunctions;
+import io.cucumber.java.en.Given;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,8 +20,7 @@ public class signup_page extends Config {
         Config.driver = driver;
     }
 
-
-    @FindBy(how = How.ID, using ="dismissbutton2header1")
+    @FindBy(how = How.ID, using ="input0label")
     public WebElement noThanksLoc;
 
     @FindBy(how = How.CLASS_NAME, using = "email full-width")
@@ -43,8 +43,10 @@ public class signup_page extends Config {
     @FindBy(how = How.NAME, using = "lastName")
     public WebElement lastNameLoc;
 
-    public void setNoThanks() {
-     noThanksLoc.click();
+    public void setNoThanks()  {driver.switchTo().frame(0);
+       driver.switchTo().window("noThanksLoc");
+
+     noThanksLoc.sendKeys("misbauddin1988@gmail.com");
     }
     public void enterEmail() {
         emailLocator.sendKeys("Misbau@gmail.com");

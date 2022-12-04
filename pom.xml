@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.LG</groupId>
-  <artifactId>LG</artifactId>
+  <groupId>org.belk</groupId>
+  <artifactId>belk</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>LG</name>
+  <name>belk</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -85,7 +85,7 @@
               <goal>generate</goal>
             </goals>
             <configuration>
-              <projectName>LG</projectName>
+              <projectName>belk</projectName>
               <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
             </configuration>
           </execution>

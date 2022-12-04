@@ -53,7 +53,8 @@ public class signup_stepDef extends Config {
     }
 
     @And("i click on no thank")
-    public void iClickOnNoThank() {
+    public void iClickOnNoThank()  {
+
         SP.setNoThanks();
     }
 }
